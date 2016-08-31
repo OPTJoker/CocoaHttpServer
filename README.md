@@ -22,4 +22,5 @@ API介绍：
 	注：服务器一直启动会浪费资源，可根据需要随时开启或关闭服务器。
 	
 	具体请看demo得代码。
+	或者博客链接：http://blog.csdn.net/u012241552/article/details/49024749
 																		———— OPTJoker
