@@ -1,0 +1,50 @@
+//
+//  PrefixHeader.pch
+//  ZOOM
+//
+//  Created by WeShape_Design01 on 16/5/20.
+//  Copyright © 2016年 Weshape3D. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#import "Header.h"
+//#import <AFNetworking.h>
+
+/** TOOLS **/
+
+/* 自定义打印函数 */
+#ifdef DEBUG
+#define XLLog(...) NSLog(__VA_ARGS__)
+#else
+#define XLLog(...)
+#endif
+
+/**  System Size Tools  **/
+
+#define KSCRW    [UIScreen mainScreen].bounds.size.width
+#define KSCRH   [UIScreen mainScreen].bounds.size.height
+
+#define KTABH 49.f
+
+/**** Color Tool *****/
+#define KMyColor(r,g,b,a) [UIColor colorWithRed:r/255.f green:g/255.f blue:b/255.f alpha:a]
+#define KCLEARCOLOR [UIColor clearColor]
+#define KWHITECOLOR [UIColor whiteColor]
+#define KBLACKCOLOR [UIColor blackColor]
+#define KBROWNCOLOR [UIColor brownColor]
+
+/**** Frame Tool *****/
+#define KMyRect(a,b,c,d) CGRectMake(a,b,c,d)
+
+
+
+/***  File Path ***/
+#define KHOMEDIR [[XLControl ShareXLControl] getCachesDir]
+
+/***  String ***/
+
+#endif /* PrefixHeader_pch */

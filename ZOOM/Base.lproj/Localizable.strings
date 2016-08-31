@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  ZOOM
+
+  Created by WeShape_Design01 on 16/5/20.
+  Copyright © 2016年 Weshape3D. All rights reserved.
+*/
+"title" = "标题";
+"regiter" = "注册";
+"login" = "登录";
+"back" = "返回";
