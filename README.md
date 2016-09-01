@@ -8,7 +8,7 @@ CocoaHttpServer的使用很简单，最麻烦的就是按照该工程的目录�
 	2.打开safari浏览器，在地址栏输入："http://localhost:你的端口号"即可。例：[http://localhost:55454]
 	3.如果成功，会看到浏览器内显示"恭喜你 服务器运行成功字样"。
 
-API介绍：
+API介绍：<br>
 	`_localHttpServer = [[HTTPServer alloc] init]`	//初始化一个本地服务器
 	
 	`[_localHttpServer setType:@"_http.tcp"];`	//设置服务器类型
@@ -22,6 +22,7 @@ API介绍：
 	`注：服务器一直启动会浪费资源，可根据需要随时开启或关闭服务器。`
 	
 	具体请看demo得代码。
-	或者博客链接：[http://blog.csdn.net/u012241552/article/details/49024749](http://blog.csdn.net/u012241552/article/details/49024749)
+	[或者博客链接：](http://blog.csdn.net/u012241552/article/details/49024749/)
+	
 								
 																		———— OPTJoker
