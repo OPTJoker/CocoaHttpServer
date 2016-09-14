@@ -1,9 +1,9 @@
 # CocoaHttpServer
 利用开源库CocoaHttpServer搭建iOS手机本地服务器
 
-CocoaHttpServer的使用很简单，最麻烦的就是按照该工程的目录结构搭建框架。细心一点，一般不会有问题。
+直接从pod下载CocoaHttpServer，然后import <CocoaHttpServer.h>即可导入。
 
-使用方法：
+检测步骤：
 	1.运行该demo，从console控制台找到CocoaHttpServer生成的随机端口号(5位数)。
 	2.打开safari浏览器，在地址栏输入："http://localhost:你的端口号"即可。例：[http://localhost:55454]
 	3.如果成功，会看到浏览器内显示"恭喜你 服务器运行成功字样"。
@@ -24,4 +24,4 @@ API介绍：
 ```
 	
 具体请看demo代码。<br>
-或者博客链接:[http://blog.csdn.net/u012241552/article/details/49024749/](http://blog.csdn.net/u012241552/article/details/49024749/)
+推广博客链接:[http://blog.csdn.net/u012241552/article/details/49024749/](http://blog.csdn.net/u012241552/article/details/49024749/)
