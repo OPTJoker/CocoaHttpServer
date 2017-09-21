@@ -12,7 +12,7 @@ API介绍：
 ```objc
 	_localHttpServer = [[HTTPServer alloc] init]	//初始化一个本地服务器
 	
-	[_localHttpServer setType:@"_http.tcp"];`	//设置服务器类型
+	[_localHttpServer setType:@"_http._tcp."];`	//设置服务器类型
 	
 	[_localHttpServer setDocumentRoot:webLocalPath];	//指定本地服务器web root文件夹根目录（可以随意指定位置，也可在代码运行过程中改变目录）
 	
