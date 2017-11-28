@@ -12,7 +12,7 @@
 #define webPath [[NSBundle mainBundle] pathForResource:@"Web" ofType:nil]
 
 
-#define KSERVERURL @"http://pccdn.weshape3d.com"
+#define KSERVERURL @"http://www.baidu.com"
 
 
 #endif /* Header_h */

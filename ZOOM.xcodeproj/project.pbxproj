@@ -7,9 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D92B6B37C18D00231C09560 /* libPods-ZOOM.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 119ADD1D95E358FE1499CF89 /* libPods-ZOOM.a */; };
+		4819302F1FCD4FF700B38734 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = 489459EF1FCD4EB000652697 /* Web */; };
+		4819303B1FCD5FF700B38734 /* BGLocationConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 4819303A1FCD5FF700B38734 /* BGLocationConfig.m */; };
+		4819303C1FCD60F900B38734 /* BGTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 481930381FCD5F3000B38734 /* BGTask.m */; };
+		4819303D1FCD60FF00B38734 /* BGLogation.m in Sources */ = {isa = PBXBuildFile; fileRef = 481930361FCD5F3000B38734 /* BGLogation.m */; };
 		93D3F3F11CEEF53A00A5FC59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3F01CEEF53A00A5FC59 /* main.m */; };
 		93D3F3F41CEEF53A00A5FC59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F3F31CEEF53A00A5FC59 /* AppDelegate.m */; };
-		93D3F3FA1CEEF53A00A5FC59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3F81CEEF53A00A5FC59 /* Main.storyboard */; };
 		93D3F3FC1CEEF53A00A5FC59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3FB1CEEF53A00A5FC59 /* Assets.xcassets */; };
 		93D3F3FF1CEEF53A00A5FC59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F3FD1CEEF53A00A5FC59 /* LaunchScreen.storyboard */; };
 		93D3F40A1CEEF53A00A5FC59 /* ZOOMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4091CEEF53A00A5FC59 /* ZOOMTests.m */; };
@@ -17,39 +21,8 @@
 		93D3F4261CEEF8C600A5FC59 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4281CEEF8C600A5FC59 /* Localizable.strings */; };
 		93D3F4291CEEF8CC00A5FC59 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F42B1CEEF8CC00A5FC59 /* InfoPlist.strings */; };
 		93D3F42F1CEEFAFB00A5FC59 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F42E1CEEFAFB00A5FC59 /* MainViewController.m */; };
-		93D3F4781CEEFB2B00A5FC59 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4331CEEFB2B00A5FC59 /* About.txt */; };
-		93D3F4791CEEFB2B00A5FC59 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4351CEEFB2B00A5FC59 /* GCDAsyncSocket.m */; };
-		93D3F47A1CEEFB2B00A5FC59 /* About.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4371CEEFB2B00A5FC59 /* About.txt */; };
-		93D3F47B1CEEFB2B00A5FC59 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4391CEEFB2B00A5FC59 /* DDAbstractDatabaseLogger.m */; };
-		93D3F47C1CEEFB2B00A5FC59 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F43B1CEEFB2B00A5FC59 /* DDASLLogger.m */; };
-		93D3F47D1CEEFB2B00A5FC59 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F43D1CEEFB2B00A5FC59 /* DDFileLogger.m */; };
-		93D3F47E1CEEFB2B00A5FC59 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F43F1CEEFB2B00A5FC59 /* DDLog.m */; };
-		93D3F47F1CEEFB2B00A5FC59 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4411CEEFB2B00A5FC59 /* DDTTYLogger.m */; };
-		93D3F4801CEEFB2B00A5FC59 /* ContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4441CEEFB2B00A5FC59 /* ContextFilterLogFormatter.m */; };
-		93D3F4811CEEFB2B00A5FC59 /* DispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4461CEEFB2B00A5FC59 /* DispatchQueueLogFormatter.m */; };
-		93D3F4821CEEFB2B00A5FC59 /* README.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4471CEEFB2B00A5FC59 /* README.txt */; };
-		93D3F4831CEEFB2B00A5FC59 /* DDData.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F44B1CEEFB2B00A5FC59 /* DDData.m */; };
-		93D3F4841CEEFB2B00A5FC59 /* DDNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F44D1CEEFB2B00A5FC59 /* DDNumber.m */; };
-		93D3F4851CEEFB2B00A5FC59 /* DDRange.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F44F1CEEFB2B00A5FC59 /* DDRange.m */; };
-		93D3F4861CEEFB2B00A5FC59 /* HTTPAuthenticationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4511CEEFB2B00A5FC59 /* HTTPAuthenticationRequest.m */; };
-		93D3F4871CEEFB2B00A5FC59 /* HTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4531CEEFB2B00A5FC59 /* HTTPConnection.m */; };
-		93D3F4881CEEFB2B00A5FC59 /* HTTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4561CEEFB2B00A5FC59 /* HTTPMessage.m */; };
-		93D3F4891CEEFB2B00A5FC59 /* HTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4591CEEFB2B00A5FC59 /* HTTPServer.m */; };
-		93D3F48A1CEEFB2B00A5FC59 /* MultipartFormDataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F45C1CEEFB2B00A5FC59 /* MultipartFormDataParser.m */; };
-		93D3F48B1CEEFB2B00A5FC59 /* MultipartMessageHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F45E1CEEFB2B00A5FC59 /* MultipartMessageHeader.m */; };
-		93D3F48C1CEEFB2B00A5FC59 /* MultipartMessageHeaderField.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4601CEEFB2B00A5FC59 /* MultipartMessageHeaderField.m */; };
-		93D3F48D1CEEFB2B00A5FC59 /* HTTPAsyncFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4631CEEFB2B00A5FC59 /* HTTPAsyncFileResponse.m */; };
-		93D3F48E1CEEFB2B00A5FC59 /* HTTPDataResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4651CEEFB2B00A5FC59 /* HTTPDataResponse.m */; };
-		93D3F48F1CEEFB2B00A5FC59 /* HTTPDynamicFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4671CEEFB2B00A5FC59 /* HTTPDynamicFileResponse.m */; };
-		93D3F4901CEEFB2B00A5FC59 /* HTTPErrorResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F4691CEEFB2B00A5FC59 /* HTTPErrorResponse.m */; };
-		93D3F4911CEEFB2B00A5FC59 /* HTTPFileResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F46B1CEEFB2B00A5FC59 /* HTTPFileResponse.m */; };
-		93D3F4921CEEFB2B00A5FC59 /* HTTPRedirectResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F46D1CEEFB2B00A5FC59 /* HTTPRedirectResponse.m */; };
-		93D3F4931CEEFB2B00A5FC59 /* WebSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 93D3F46F1CEEFB2B00A5FC59 /* WebSocket.m */; };
-		93D3F4951CEEFB2B00A5FC59 /* Base.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4741CEEFB2B00A5FC59 /* Base.xcconfig */; };
-		93D3F4961CEEFB2B00A5FC59 /* Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4751CEEFB2B00A5FC59 /* Debug.xcconfig */; };
-		93D3F4971CEEFB2B00A5FC59 /* ReadMe.txt in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4761CEEFB2B00A5FC59 /* ReadMe.txt */; };
-		93D3F4981CEEFB2B00A5FC59 /* Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4771CEEFB2B00A5FC59 /* Release.xcconfig */; };
-		93D3F49A1CEEFB4600A5FC59 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = 93D3F4991CEEFB4600A5FC59 /* Web */; };
+		A86EF975314C22F5811F1882 /* libPods-ZOOMTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C05683D8F89F3255DBBE5E74 /* libPods-ZOOMTests.a */; };
+		CE6CC633907EF366EB1B9803 /* libPods-ZOOMUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF45426D2212A5E5DE2C05E7 /* libPods-ZOOMUITests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,11 +43,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		119ADD1D95E358FE1499CF89 /* libPods-ZOOM.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZOOM.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		481930351FCD5F3000B38734 /* BGLogation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGLogation.h; sourceTree = "<group>"; };
+		481930361FCD5F3000B38734 /* BGLogation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGLogation.m; sourceTree = "<group>"; };
+		481930371FCD5F3000B38734 /* BGTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGTask.h; sourceTree = "<group>"; };
+		481930381FCD5F3000B38734 /* BGTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGTask.m; sourceTree = "<group>"; };
+		481930391FCD5FF700B38734 /* BGLocationConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGLocationConfig.h; sourceTree = "<group>"; };
+		4819303A1FCD5FF700B38734 /* BGLocationConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGLocationConfig.m; sourceTree = "<group>"; };
+		489459EF1FCD4EB000652697 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		5B91189756C49B6D863FD45F /* Pods-ZOOMTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOMTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOMTests/Pods-ZOOMTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7B9F905F8EADBB02DD1ECEF2 /* Pods-ZOOMUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOMUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOMUITests/Pods-ZOOMUITests.release.xcconfig"; sourceTree = "<group>"; };
 		93D3F3EC1CEEF53A00A5FC59 /* ZOOM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOOM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		93D3F3F01CEEF53A00A5FC59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		93D3F3F21CEEF53A00A5FC59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		93D3F3F31CEEF53A00A5FC59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		93D3F3F91CEEF53A00A5FC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		93D3F3FB1CEEF53A00A5FC59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D3F3FE1CEEF53A00A5FC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93D3F4001CEEF53A00A5FC59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -88,68 +70,14 @@
 		93D3F42A1CEEF8CC00A5FC59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		93D3F42D1CEEFAFB00A5FC59 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		93D3F42E1CEEFAFB00A5FC59 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
-		93D3F4331CEEFB2B00A5FC59 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
-		93D3F4341CEEFB2B00A5FC59 /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
-		93D3F4351CEEFB2B00A5FC59 /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
-		93D3F4371CEEFB2B00A5FC59 /* About.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = About.txt; sourceTree = "<group>"; };
-		93D3F4381CEEFB2B00A5FC59 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
-		93D3F4391CEEFB2B00A5FC59 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
-		93D3F43A1CEEFB2B00A5FC59 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
-		93D3F43B1CEEFB2B00A5FC59 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
-		93D3F43C1CEEFB2B00A5FC59 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
-		93D3F43D1CEEFB2B00A5FC59 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
-		93D3F43E1CEEFB2B00A5FC59 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
-		93D3F43F1CEEFB2B00A5FC59 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
-		93D3F4401CEEFB2B00A5FC59 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
-		93D3F4411CEEFB2B00A5FC59 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
-		93D3F4431CEEFB2B00A5FC59 /* ContextFilterLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContextFilterLogFormatter.h; sourceTree = "<group>"; };
-		93D3F4441CEEFB2B00A5FC59 /* ContextFilterLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContextFilterLogFormatter.m; sourceTree = "<group>"; };
-		93D3F4451CEEFB2B00A5FC59 /* DispatchQueueLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DispatchQueueLogFormatter.h; sourceTree = "<group>"; };
-		93D3F4461CEEFB2B00A5FC59 /* DispatchQueueLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DispatchQueueLogFormatter.m; sourceTree = "<group>"; };
-		93D3F4471CEEFB2B00A5FC59 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
-		93D3F44A1CEEFB2B00A5FC59 /* DDData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDData.h; sourceTree = "<group>"; };
-		93D3F44B1CEEFB2B00A5FC59 /* DDData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDData.m; sourceTree = "<group>"; };
-		93D3F44C1CEEFB2B00A5FC59 /* DDNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDNumber.h; sourceTree = "<group>"; };
-		93D3F44D1CEEFB2B00A5FC59 /* DDNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDNumber.m; sourceTree = "<group>"; };
-		93D3F44E1CEEFB2B00A5FC59 /* DDRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDRange.h; sourceTree = "<group>"; };
-		93D3F44F1CEEFB2B00A5FC59 /* DDRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDRange.m; sourceTree = "<group>"; };
-		93D3F4501CEEFB2B00A5FC59 /* HTTPAuthenticationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAuthenticationRequest.h; sourceTree = "<group>"; };
-		93D3F4511CEEFB2B00A5FC59 /* HTTPAuthenticationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAuthenticationRequest.m; sourceTree = "<group>"; };
-		93D3F4521CEEFB2B00A5FC59 /* HTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPConnection.h; sourceTree = "<group>"; };
-		93D3F4531CEEFB2B00A5FC59 /* HTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPConnection.m; sourceTree = "<group>"; };
-		93D3F4541CEEFB2B00A5FC59 /* HTTPLogging.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPLogging.h; sourceTree = "<group>"; };
-		93D3F4551CEEFB2B00A5FC59 /* HTTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPMessage.h; sourceTree = "<group>"; };
-		93D3F4561CEEFB2B00A5FC59 /* HTTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPMessage.m; sourceTree = "<group>"; };
-		93D3F4571CEEFB2B00A5FC59 /* HTTPResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPResponse.h; sourceTree = "<group>"; };
-		93D3F4581CEEFB2B00A5FC59 /* HTTPServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPServer.h; sourceTree = "<group>"; };
-		93D3F4591CEEFB2B00A5FC59 /* HTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPServer.m; sourceTree = "<group>"; };
-		93D3F45B1CEEFB2B00A5FC59 /* MultipartFormDataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartFormDataParser.h; sourceTree = "<group>"; };
-		93D3F45C1CEEFB2B00A5FC59 /* MultipartFormDataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartFormDataParser.m; sourceTree = "<group>"; };
-		93D3F45D1CEEFB2B00A5FC59 /* MultipartMessageHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeader.h; sourceTree = "<group>"; };
-		93D3F45E1CEEFB2B00A5FC59 /* MultipartMessageHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeader.m; sourceTree = "<group>"; };
-		93D3F45F1CEEFB2B00A5FC59 /* MultipartMessageHeaderField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MultipartMessageHeaderField.h; sourceTree = "<group>"; };
-		93D3F4601CEEFB2B00A5FC59 /* MultipartMessageHeaderField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultipartMessageHeaderField.m; sourceTree = "<group>"; };
-		93D3F4621CEEFB2B00A5FC59 /* HTTPAsyncFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPAsyncFileResponse.h; sourceTree = "<group>"; };
-		93D3F4631CEEFB2B00A5FC59 /* HTTPAsyncFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPAsyncFileResponse.m; sourceTree = "<group>"; };
-		93D3F4641CEEFB2B00A5FC59 /* HTTPDataResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDataResponse.h; sourceTree = "<group>"; };
-		93D3F4651CEEFB2B00A5FC59 /* HTTPDataResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDataResponse.m; sourceTree = "<group>"; };
-		93D3F4661CEEFB2B00A5FC59 /* HTTPDynamicFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPDynamicFileResponse.h; sourceTree = "<group>"; };
-		93D3F4671CEEFB2B00A5FC59 /* HTTPDynamicFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPDynamicFileResponse.m; sourceTree = "<group>"; };
-		93D3F4681CEEFB2B00A5FC59 /* HTTPErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPErrorResponse.h; sourceTree = "<group>"; };
-		93D3F4691CEEFB2B00A5FC59 /* HTTPErrorResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPErrorResponse.m; sourceTree = "<group>"; };
-		93D3F46A1CEEFB2B00A5FC59 /* HTTPFileResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPFileResponse.h; sourceTree = "<group>"; };
-		93D3F46B1CEEFB2B00A5FC59 /* HTTPFileResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPFileResponse.m; sourceTree = "<group>"; };
-		93D3F46C1CEEFB2B00A5FC59 /* HTTPRedirectResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTTPRedirectResponse.h; sourceTree = "<group>"; };
-		93D3F46D1CEEFB2B00A5FC59 /* HTTPRedirectResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTTPRedirectResponse.m; sourceTree = "<group>"; };
-		93D3F46E1CEEFB2B00A5FC59 /* WebSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSocket.h; sourceTree = "<group>"; };
-		93D3F46F1CEEFB2B00A5FC59 /* WebSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSocket.m; sourceTree = "<group>"; };
-		93D3F4741CEEFB2B00A5FC59 /* Base.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Base.xcconfig; sourceTree = "<group>"; };
-		93D3F4751CEEFB2B00A5FC59 /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		93D3F4761CEEFB2B00A5FC59 /* ReadMe.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe.txt; sourceTree = "<group>"; };
-		93D3F4771CEEFB2B00A5FC59 /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		93D3F4991CEEFB4600A5FC59 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
 		93D3F49C1CEEFCCD00A5FC59 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 		93D3F49D1CEEFD6600A5FC59 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		971EC3CAE22F70E4F4EF4099 /* Pods-ZOOMUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOMUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOMUITests/Pods-ZOOMUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A4EFC039BDE0ECD53BD510FB /* Pods-ZOOM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOM.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOM/Pods-ZOOM.debug.xcconfig"; sourceTree = "<group>"; };
+		C05683D8F89F3255DBBE5E74 /* libPods-ZOOMTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZOOMTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E67384836CB6D09A2A36E9F9 /* Pods-ZOOM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOM.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOM/Pods-ZOOM.release.xcconfig"; sourceTree = "<group>"; };
+		EF45426D2212A5E5DE2C05E7 /* libPods-ZOOMUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZOOMUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F41520B4742A073CA311F999 /* Pods-ZOOMTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZOOMTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZOOMTests/Pods-ZOOMTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D92B6B37C18D00231C09560 /* libPods-ZOOM.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A86EF975314C22F5811F1882 /* libPods-ZOOMTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -171,12 +101,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6CC633907EF366EB1B9803 /* libPods-ZOOMUITests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4319616E74D85E9CEF4E2797 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A4EFC039BDE0ECD53BD510FB /* Pods-ZOOM.debug.xcconfig */,
+				E67384836CB6D09A2A36E9F9 /* Pods-ZOOM.release.xcconfig */,
+				5B91189756C49B6D863FD45F /* Pods-ZOOMTests.debug.xcconfig */,
+				F41520B4742A073CA311F999 /* Pods-ZOOMTests.release.xcconfig */,
+				971EC3CAE22F70E4F4EF4099 /* Pods-ZOOMUITests.debug.xcconfig */,
+				7B9F905F8EADBB02DD1ECEF2 /* Pods-ZOOMUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		481930341FCD5F3000B38734 /* BGLogation */ = {
+			isa = PBXGroup;
+			children = (
+				481930351FCD5F3000B38734 /* BGLogation.h */,
+				481930361FCD5F3000B38734 /* BGLogation.m */,
+				481930391FCD5FF700B38734 /* BGLocationConfig.h */,
+				4819303A1FCD5FF700B38734 /* BGLocationConfig.m */,
+				481930371FCD5F3000B38734 /* BGTask.h */,
+				481930381FCD5F3000B38734 /* BGTask.m */,
+			);
+			path = BGLogation;
+			sourceTree = "<group>";
+		};
 		93D3F3E31CEEF53A00A5FC59 = {
 			isa = PBXGroup;
 			children = (
@@ -184,6 +141,8 @@
 				93D3F4081CEEF53A00A5FC59 /* ZOOMTests */,
 				93D3F4131CEEF53A00A5FC59 /* ZOOMUITests */,
 				93D3F3ED1CEEF53A00A5FC59 /* Products */,
+				4319616E74D85E9CEF4E2797 /* Pods */,
+				DBD79371DCA1D681BA0A777F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -203,8 +162,7 @@
 				93D3F3F21CEEF53A00A5FC59 /* AppDelegate.h */,
 				93D3F3F31CEEF53A00A5FC59 /* AppDelegate.m */,
 				93D3F42C1CEEFADB00A5FC59 /* Project */,
-				93D3F4301CEEFB2B00A5FC59 /* ThirdPart */,
-				93D3F3F81CEEF53A00A5FC59 /* Main.storyboard */,
+				481930341FCD5F3000B38734 /* BGLogation */,
 				93D3F3FB1CEEF53A00A5FC59 /* Assets.xcassets */,
 				93D3F3FD1CEEF53A00A5FC59 /* LaunchScreen.storyboard */,
 				93D3F4001CEEF53A00A5FC59 /* Info.plist */,
@@ -246,157 +204,21 @@
 		93D3F42C1CEEFADB00A5FC59 /* Project */ = {
 			isa = PBXGroup;
 			children = (
+				489459EF1FCD4EB000652697 /* Web */,
 				93D3F42D1CEEFAFB00A5FC59 /* MainViewController.h */,
 				93D3F42E1CEEFAFB00A5FC59 /* MainViewController.m */,
 			);
 			path = Project;
 			sourceTree = "<group>";
 		};
-		93D3F4301CEEFB2B00A5FC59 /* ThirdPart */ = {
+		DBD79371DCA1D681BA0A777F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				93D3F4311CEEFB2B00A5FC59 /* CocoaHttpServer */,
+				119ADD1D95E358FE1499CF89 /* libPods-ZOOM.a */,
+				C05683D8F89F3255DBBE5E74 /* libPods-ZOOMTests.a */,
+				EF45426D2212A5E5DE2C05E7 /* libPods-ZOOMUITests.a */,
 			);
-			path = ThirdPart;
-			sourceTree = "<group>";
-		};
-		93D3F4311CEEFB2B00A5FC59 /* CocoaHttpServer */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F4321CEEFB2B00A5FC59 /* CocoaAsyncSocket */,
-				93D3F4361CEEFB2B00A5FC59 /* CocoaLumberjack */,
-				93D3F4481CEEFB2B00A5FC59 /* Core */,
-				93D3F4701CEEFB2B00A5FC59 /* Resource */,
-			);
-			path = CocoaHttpServer;
-			sourceTree = "<group>";
-		};
-		93D3F4321CEEFB2B00A5FC59 /* CocoaAsyncSocket */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F4331CEEFB2B00A5FC59 /* About.txt */,
-				93D3F4341CEEFB2B00A5FC59 /* GCDAsyncSocket.h */,
-				93D3F4351CEEFB2B00A5FC59 /* GCDAsyncSocket.m */,
-			);
-			path = CocoaAsyncSocket;
-			sourceTree = "<group>";
-		};
-		93D3F4361CEEFB2B00A5FC59 /* CocoaLumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F4371CEEFB2B00A5FC59 /* About.txt */,
-				93D3F4381CEEFB2B00A5FC59 /* DDAbstractDatabaseLogger.h */,
-				93D3F4391CEEFB2B00A5FC59 /* DDAbstractDatabaseLogger.m */,
-				93D3F43A1CEEFB2B00A5FC59 /* DDASLLogger.h */,
-				93D3F43B1CEEFB2B00A5FC59 /* DDASLLogger.m */,
-				93D3F43C1CEEFB2B00A5FC59 /* DDFileLogger.h */,
-				93D3F43D1CEEFB2B00A5FC59 /* DDFileLogger.m */,
-				93D3F43E1CEEFB2B00A5FC59 /* DDLog.h */,
-				93D3F43F1CEEFB2B00A5FC59 /* DDLog.m */,
-				93D3F4401CEEFB2B00A5FC59 /* DDTTYLogger.h */,
-				93D3F4411CEEFB2B00A5FC59 /* DDTTYLogger.m */,
-				93D3F4421CEEFB2B00A5FC59 /* Extensions */,
-			);
-			path = CocoaLumberjack;
-			sourceTree = "<group>";
-		};
-		93D3F4421CEEFB2B00A5FC59 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F4431CEEFB2B00A5FC59 /* ContextFilterLogFormatter.h */,
-				93D3F4441CEEFB2B00A5FC59 /* ContextFilterLogFormatter.m */,
-				93D3F4451CEEFB2B00A5FC59 /* DispatchQueueLogFormatter.h */,
-				93D3F4461CEEFB2B00A5FC59 /* DispatchQueueLogFormatter.m */,
-				93D3F4471CEEFB2B00A5FC59 /* README.txt */,
-			);
-			path = Extensions;
-			sourceTree = "<group>";
-		};
-		93D3F4481CEEFB2B00A5FC59 /* Core */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F4491CEEFB2B00A5FC59 /* Categories */,
-				93D3F4501CEEFB2B00A5FC59 /* HTTPAuthenticationRequest.h */,
-				93D3F4511CEEFB2B00A5FC59 /* HTTPAuthenticationRequest.m */,
-				93D3F4521CEEFB2B00A5FC59 /* HTTPConnection.h */,
-				93D3F4531CEEFB2B00A5FC59 /* HTTPConnection.m */,
-				93D3F4541CEEFB2B00A5FC59 /* HTTPLogging.h */,
-				93D3F4551CEEFB2B00A5FC59 /* HTTPMessage.h */,
-				93D3F4561CEEFB2B00A5FC59 /* HTTPMessage.m */,
-				93D3F4571CEEFB2B00A5FC59 /* HTTPResponse.h */,
-				93D3F4581CEEFB2B00A5FC59 /* HTTPServer.h */,
-				93D3F4591CEEFB2B00A5FC59 /* HTTPServer.m */,
-				93D3F45A1CEEFB2B00A5FC59 /* Mime */,
-				93D3F4611CEEFB2B00A5FC59 /* Responses */,
-				93D3F46E1CEEFB2B00A5FC59 /* WebSocket.h */,
-				93D3F46F1CEEFB2B00A5FC59 /* WebSocket.m */,
-			);
-			path = Core;
-			sourceTree = "<group>";
-		};
-		93D3F4491CEEFB2B00A5FC59 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F44A1CEEFB2B00A5FC59 /* DDData.h */,
-				93D3F44B1CEEFB2B00A5FC59 /* DDData.m */,
-				93D3F44C1CEEFB2B00A5FC59 /* DDNumber.h */,
-				93D3F44D1CEEFB2B00A5FC59 /* DDNumber.m */,
-				93D3F44E1CEEFB2B00A5FC59 /* DDRange.h */,
-				93D3F44F1CEEFB2B00A5FC59 /* DDRange.m */,
-			);
-			path = Categories;
-			sourceTree = "<group>";
-		};
-		93D3F45A1CEEFB2B00A5FC59 /* Mime */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F45B1CEEFB2B00A5FC59 /* MultipartFormDataParser.h */,
-				93D3F45C1CEEFB2B00A5FC59 /* MultipartFormDataParser.m */,
-				93D3F45D1CEEFB2B00A5FC59 /* MultipartMessageHeader.h */,
-				93D3F45E1CEEFB2B00A5FC59 /* MultipartMessageHeader.m */,
-				93D3F45F1CEEFB2B00A5FC59 /* MultipartMessageHeaderField.h */,
-				93D3F4601CEEFB2B00A5FC59 /* MultipartMessageHeaderField.m */,
-			);
-			path = Mime;
-			sourceTree = "<group>";
-		};
-		93D3F4611CEEFB2B00A5FC59 /* Responses */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F4621CEEFB2B00A5FC59 /* HTTPAsyncFileResponse.h */,
-				93D3F4631CEEFB2B00A5FC59 /* HTTPAsyncFileResponse.m */,
-				93D3F4641CEEFB2B00A5FC59 /* HTTPDataResponse.h */,
-				93D3F4651CEEFB2B00A5FC59 /* HTTPDataResponse.m */,
-				93D3F4661CEEFB2B00A5FC59 /* HTTPDynamicFileResponse.h */,
-				93D3F4671CEEFB2B00A5FC59 /* HTTPDynamicFileResponse.m */,
-				93D3F4681CEEFB2B00A5FC59 /* HTTPErrorResponse.h */,
-				93D3F4691CEEFB2B00A5FC59 /* HTTPErrorResponse.m */,
-				93D3F46A1CEEFB2B00A5FC59 /* HTTPFileResponse.h */,
-				93D3F46B1CEEFB2B00A5FC59 /* HTTPFileResponse.m */,
-				93D3F46C1CEEFB2B00A5FC59 /* HTTPRedirectResponse.h */,
-				93D3F46D1CEEFB2B00A5FC59 /* HTTPRedirectResponse.m */,
-			);
-			path = Responses;
-			sourceTree = "<group>";
-		};
-		93D3F4701CEEFB2B00A5FC59 /* Resource */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F4991CEEFB4600A5FC59 /* Web */,
-				93D3F4731CEEFB2B00A5FC59 /* Xcode-Configurations */,
-			);
-			path = Resource;
-			sourceTree = "<group>";
-		};
-		93D3F4731CEEFB2B00A5FC59 /* Xcode-Configurations */ = {
-			isa = PBXGroup;
-			children = (
-				93D3F4741CEEFB2B00A5FC59 /* Base.xcconfig */,
-				93D3F4751CEEFB2B00A5FC59 /* Debug.xcconfig */,
-				93D3F4761CEEFB2B00A5FC59 /* ReadMe.txt */,
-				93D3F4771CEEFB2B00A5FC59 /* Release.xcconfig */,
-			);
-			path = "Xcode-Configurations";
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -406,9 +228,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93D3F4191CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOM" */;
 			buildPhases = (
+				0B4C361F63AC7F02147F7D5F /* [CP] Check Pods Manifest.lock */,
 				93D3F3E81CEEF53A00A5FC59 /* Sources */,
 				93D3F3E91CEEF53A00A5FC59 /* Frameworks */,
 				93D3F3EA1CEEF53A00A5FC59 /* Resources */,
+				8FD9309383434F7AAA87177B /* [CP] Embed Pods Frameworks */,
+				B0A90B6ADB432EA072BE0266 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -423,9 +248,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93D3F41C1CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOMTests" */;
 			buildPhases = (
+				ECCD93F450D3E38733F1726B /* [CP] Check Pods Manifest.lock */,
 				93D3F4011CEEF53A00A5FC59 /* Sources */,
 				93D3F4021CEEF53A00A5FC59 /* Frameworks */,
 				93D3F4031CEEF53A00A5FC59 /* Resources */,
+				410E3E94A4BF0D40380DB911 /* [CP] Embed Pods Frameworks */,
+				D5C7E147677AC6B2B908B00D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -441,9 +269,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 93D3F41F1CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOMUITests" */;
 			buildPhases = (
+				948AB9B5F217E05BFEC1B812 /* [CP] Check Pods Manifest.lock */,
 				93D3F40C1CEEF53A00A5FC59 /* Sources */,
 				93D3F40D1CEEF53A00A5FC59 /* Frameworks */,
 				93D3F40E1CEEF53A00A5FC59 /* Resources */,
+				55172C2BEF45F3CC01EC5D83 /* [CP] Embed Pods Frameworks */,
+				F366B90A867D208FDB30DC0B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -466,6 +297,12 @@
 				TargetAttributes = {
 					93D3F3EB1CEEF53A00A5FC59 = {
 						CreatedOnToolsVersion = 7.3;
+						ProvisioningStyle = Manual;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					93D3F4041CEEF53A00A5FC59 = {
 						CreatedOnToolsVersion = 7.3;
@@ -502,19 +339,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D3F4781CEEFB2B00A5FC59 /* About.txt in Resources */,
-				93D3F49A1CEEFB4600A5FC59 /* Web in Resources */,
+				4819302F1FCD4FF700B38734 /* Web in Resources */,
 				93D3F3FF1CEEF53A00A5FC59 /* LaunchScreen.storyboard in Resources */,
-				93D3F4981CEEFB2B00A5FC59 /* Release.xcconfig in Resources */,
 				93D3F4261CEEF8C600A5FC59 /* Localizable.strings in Resources */,
 				93D3F3FC1CEEF53A00A5FC59 /* Assets.xcassets in Resources */,
-				93D3F3FA1CEEF53A00A5FC59 /* Main.storyboard in Resources */,
 				93D3F4291CEEF8CC00A5FC59 /* InfoPlist.strings in Resources */,
-				93D3F4961CEEFB2B00A5FC59 /* Debug.xcconfig in Resources */,
-				93D3F4821CEEFB2B00A5FC59 /* README.txt in Resources */,
-				93D3F47A1CEEFB2B00A5FC59 /* About.txt in Resources */,
-				93D3F4971CEEFB2B00A5FC59 /* ReadMe.txt in Resources */,
-				93D3F4951CEEFB2B00A5FC59 /* Base.xcconfig in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -534,39 +363,155 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0B4C361F63AC7F02147F7D5F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		410E3E94A4BF0D40380DB911 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOMTests/Pods-ZOOMTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		55172C2BEF45F3CC01EC5D83 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOMUITests/Pods-ZOOMUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8FD9309383434F7AAA87177B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOM/Pods-ZOOM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		948AB9B5F217E05BFEC1B812 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B0A90B6ADB432EA072BE0266 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOM/Pods-ZOOM-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5C7E147677AC6B2B908B00D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOMTests/Pods-ZOOMTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECCD93F450D3E38733F1726B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F366B90A867D208FDB30DC0B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZOOMUITests/Pods-ZOOMUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		93D3F3E81CEEF53A00A5FC59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				93D3F48E1CEEFB2B00A5FC59 /* HTTPDataResponse.m in Sources */,
-				93D3F4891CEEFB2B00A5FC59 /* HTTPServer.m in Sources */,
-				93D3F48C1CEEFB2B00A5FC59 /* MultipartMessageHeaderField.m in Sources */,
-				93D3F4861CEEFB2B00A5FC59 /* HTTPAuthenticationRequest.m in Sources */,
-				93D3F4791CEEFB2B00A5FC59 /* GCDAsyncSocket.m in Sources */,
+				4819303D1FCD60FF00B38734 /* BGLogation.m in Sources */,
+				4819303C1FCD60F900B38734 /* BGTask.m in Sources */,
 				93D3F3F41CEEF53A00A5FC59 /* AppDelegate.m in Sources */,
-				93D3F4911CEEFB2B00A5FC59 /* HTTPFileResponse.m in Sources */,
-				93D3F4881CEEFB2B00A5FC59 /* HTTPMessage.m in Sources */,
-				93D3F4921CEEFB2B00A5FC59 /* HTTPRedirectResponse.m in Sources */,
-				93D3F47C1CEEFB2B00A5FC59 /* DDASLLogger.m in Sources */,
-				93D3F48F1CEEFB2B00A5FC59 /* HTTPDynamicFileResponse.m in Sources */,
-				93D3F4801CEEFB2B00A5FC59 /* ContextFilterLogFormatter.m in Sources */,
-				93D3F47F1CEEFB2B00A5FC59 /* DDTTYLogger.m in Sources */,
-				93D3F47D1CEEFB2B00A5FC59 /* DDFileLogger.m in Sources */,
-				93D3F47E1CEEFB2B00A5FC59 /* DDLog.m in Sources */,
+				4819303B1FCD5FF700B38734 /* BGLocationConfig.m in Sources */,
 				93D3F42F1CEEFAFB00A5FC59 /* MainViewController.m in Sources */,
-				93D3F4811CEEFB2B00A5FC59 /* DispatchQueueLogFormatter.m in Sources */,
-				93D3F4931CEEFB2B00A5FC59 /* WebSocket.m in Sources */,
-				93D3F4901CEEFB2B00A5FC59 /* HTTPErrorResponse.m in Sources */,
-				93D3F4851CEEFB2B00A5FC59 /* DDRange.m in Sources */,
-				93D3F48A1CEEFB2B00A5FC59 /* MultipartFormDataParser.m in Sources */,
-				93D3F4871CEEFB2B00A5FC59 /* HTTPConnection.m in Sources */,
-				93D3F48B1CEEFB2B00A5FC59 /* MultipartMessageHeader.m in Sources */,
-				93D3F48D1CEEFB2B00A5FC59 /* HTTPAsyncFileResponse.m in Sources */,
-				93D3F4841CEEFB2B00A5FC59 /* DDNumber.m in Sources */,
-				93D3F4831CEEFB2B00A5FC59 /* DDData.m in Sources */,
 				93D3F3F11CEEF53A00A5FC59 /* main.m in Sources */,
-				93D3F47B1CEEFB2B00A5FC59 /* DDAbstractDatabaseLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -602,14 +547,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		93D3F3F81CEEF53A00A5FC59 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				93D3F3F91CEEF53A00A5FC59 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		93D3F3FD1CEEF53A00A5FC59 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -723,30 +660,41 @@
 		};
 		93D3F41A1CEEF53A00A5FC59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4EFC039BDE0ECD53BD510FB /* Pods-ZOOM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = ZOOM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.weshape3d.ZOOM;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weshape3d.-HttpServer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		93D3F41B1CEEF53A00A5FC59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E67384836CB6D09A2A36E9F9 /* Pods-ZOOM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PRODUCT_NAME)/PrefixHeader.pch";
 				INFOPLIST_FILE = ZOOM/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.weshape3d.ZOOM;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.weshape3d.-HttpServer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
 		93D3F41D1CEEF53A00A5FC59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B91189756C49B6D863FD45F /* Pods-ZOOMTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZOOMTests/Info.plist;
@@ -759,6 +707,7 @@
 		};
 		93D3F41E1CEEF53A00A5FC59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F41520B4742A073CA311F999 /* Pods-ZOOMTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ZOOMTests/Info.plist;
@@ -771,6 +720,7 @@
 		};
 		93D3F4201CEEF53A00A5FC59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 971EC3CAE22F70E4F4EF4099 /* Pods-ZOOMUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZOOMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -782,6 +732,7 @@
 		};
 		93D3F4211CEEF53A00A5FC59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7B9F905F8EADBB02DD1ECEF2 /* Pods-ZOOMUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = ZOOMUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -810,6 +761,7 @@
 				93D3F41B1CEEF53A00A5FC59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93D3F41C1CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOMTests" */ = {
 			isa = XCConfigurationList;
@@ -818,6 +770,7 @@
 				93D3F41E1CEEF53A00A5FC59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		93D3F41F1CEEF53A00A5FC59 /* Build configuration list for PBXNativeTarget "ZOOMUITests" */ = {
 			isa = XCConfigurationList;
@@ -826,6 +779,7 @@
 				93D3F4211CEEF53A00A5FC59 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

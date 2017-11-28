@@ -9,8 +9,10 @@
 #import "AppDelegate.h"
 #import "MainViewController.h"
 
-@interface AppDelegate ()
+#import "BGLocationConfig.h"
 
+@interface AppDelegate ()
+@property (nonatomic, strong) NSTimer *timer;
 @end
 
 @implementation AppDelegate
@@ -21,13 +23,18 @@
     
     MainViewController *mainV = [[MainViewController alloc] init];
     UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:mainV];
+    mainV.navigationItem.title = @"C-HttpServer";
+    
     self.window.rootViewController = nav;
     
     [self.window makeKeyAndVisible];
     
     [self performSelector:@selector(configLocalHttpServer) withObject:nil afterDelay:1];
-    // Override point for customization after application launch.
+    //[self configLocalHttpServer];
     
+    // 注意打开Xcode工程里的后台定位和后台刷新功能哦~ 不然会crash
+    [BGLocationConfig starBGLocation];
+    [self.timer fire];
     
     return YES;
 }
@@ -39,17 +46,18 @@
     _localHttpServer = [[HTTPServer alloc] init];
     [_localHttpServer setType:@"_http.tcp"];
     
-    NSFileManager *fileManager = [[NSFileManager alloc] init];
-    XLLog(@"%@",webPath);
+    NSFileManager *fileManager = [NSFileManager defaultManager];
+    
+    NSString *path = webPath;
+    XLLog(@">>>>[WebFilePath:]%@",path);
     
     
     if (![fileManager fileExistsAtPath:webPath]){
-        
-        XLLog(@"File path error!");
+        XLLog(@">>>> File path error!");
     }else{
         NSString *webLocalPath = webPath;
         [_localHttpServer setDocumentRoot:webLocalPath];
-        XLLog(@"webLocalPath:%@",webLocalPath);
+        XLLog(@">>webLocalPath:%@",webLocalPath);
         [self startServer];
     }
 }
@@ -66,6 +74,19 @@
     }
 }
 
+
+
+- (NSTimer *)timer{
+    if (nil == _timer) {
+        _timer = [NSTimer timerWithTimeInterval:1 repeats:YES block:^(NSTimer * _Nonnull timer) {
+            XLLog(@"运行ing");
+        }];
+        NSRunLoop *curRun = [NSRunLoop currentRunLoop];
+        [curRun addTimer:_timer forMode:NSRunLoopCommonModes];
+        
+    }
+    return _timer;
+}
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
