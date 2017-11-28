@@ -1,3 +1,10 @@
+
+Tips:
+1.新增依靠后台定位让app常驻后台的代码
+2.新增webView页面显示web内容
+3.新增iPhoneX适配
+
+
 # CocoaHttpServer
 利用开源库CocoaHttpServer搭建iOS手机本地服务器
 
@@ -22,6 +29,12 @@ API介绍：
 
 	注：服务器一直启动会浪费资源，可根据需要随时开启或关闭服务器。`
 ```
-	
+
+注意:
+1.需要开启xcode工程的后台定位设置才能启用app后台定位功能，不然会crash
+2.必须让手机连接电脑共享出来的wifi才能让电脑访问。只让手机和电脑连同一个路由器是不行的。
+1.2的处理如下图。
+
 具体请看demo代码。<br>
+
 推广博客链接:[http://blog.csdn.net/u012241552/article/details/49024749/](http://blog.csdn.net/u012241552/article/details/49024749/)
