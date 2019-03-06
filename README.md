@@ -12,8 +12,11 @@ Tips:
 
 检测步骤：
 	1.运行该demo，从console控制台找到CocoaHttpServer生成的随机端口号(5位数)。
-	2.打开safari浏览器，在地址栏输入："http://localhost:你的端口号"即可。例：[http://localhost:55454]
+	
+	2.打开safari浏览器，在地址栏输入："http://localhost:你的端口号" 即可。例：[http://localhost:55454]
+	
 	3.如果你想用电脑访问手机，那你需要让手机连电脑共享出来的wifi，然后在电脑浏览器里输入手机的ip地址(请自己从手机的设置页面查找你的ip),再加上端口号。
+	
 	4.如果成功，会看到浏览器内显示"恭喜你 服务器运行成功字样"。
 
 API介绍：
