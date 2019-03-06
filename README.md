@@ -10,7 +10,8 @@ Tips:
 
 直接从pod下载CocoaHttpServer，然后import <CocoaHttpServer.h>即可导入。
 
-检测步骤：
+检测步骤：	
+	
 	1.运行该demo，从console控制台找到CocoaHttpServer生成的随机端口号(5位数)。
 	
 	2.打开safari浏览器，在地址栏输入："http://localhost:你的端口号" 即可。例：[http://localhost:55454]
