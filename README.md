@@ -45,5 +45,3 @@ API介绍：
 ![注意2](net.jpg)
 
 具体请看demo代码。<br>
-
-推广博客链接:[http://blog.csdn.net/u012241552/article/details/49024749/](http://blog.csdn.net/u012241552/article/details/49024749/)
